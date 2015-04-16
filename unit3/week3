@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>Three Sisters </title>
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<body>
+<h1>Three Sisters</h1>
+<img src= "limebbqbeets.jpg">
+<h2 <i> id="slogan">Our parents are saints... or are they just lucky? </h2> </i>
+<p1> As family we know that taste isn't always agreed upon. But as foodies we know the importance of agreeing upon taste. <p1>
+
+<ul>
+ <li>Italian<li>
+ <li>Spanish<li>
+ <li>Southern<li>
+
+ <address>
+ contact us <a href = "mailto:brownstephanie10@gmail.com"
+ </address>
+
+
+
+
+
+</body>
+
+
+
+</html>

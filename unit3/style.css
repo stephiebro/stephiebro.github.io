@@ -1,8 +1,12 @@
 body {
-	color: #800080;
-	background-color: #FFFFFF;
+	color: #2E0854;
+	background-color: #000000;
+	background-image: url("assets/limebbq.jpg");
+	background-size: cover;
 }
-h1 {color:black;
+h1 {color:#2E0854;
 text-align: center;}
-p {color: green;}
-#slogan {color: purple;}
+p {
+	color: #;
+}
+#slogan {color: #2E0854;}

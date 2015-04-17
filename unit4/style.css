@@ -1,0 +1,44 @@
+@import url('http://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('http://fonts.googleapis.com/css?family=Hind');
+
+body {
+	color: #2E0854;
+	background-color: #FFF;
+	/*background-image: url("assets/limebbq.jpg");*/
+	background-size: cover;
+	font-family: 'Hind', sans-serif;
+	
+}
+
+h1 {color:#2E0854;
+	text-align: center;
+	font-family: 'Oleo Script', cursive;
+	font-size: 48px ;
+}
+
+h2 {font-style: italic;
+}
+
+}
+
+p {
+	color: #;
+	font-family: 'Hind', sans-serif;
+}
+
+div{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+img{
+	width: 100%;
+ }
+
+#slogan {
+	color: #2E0854;
+}
+
+

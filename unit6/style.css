@@ -1,40 +1,76 @@
-
-
 body {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 20px;
-	
+   font-family: 'PT Sans', sans-serif;
+   font-size: 20px;
 }
 
-img {
-	width: 30%;
-	margin: 0;
+#people img {
+   width: 100%;
+   margin: 0;
 }
-
 
 #wrapper {
-	width: 960px;
-	margin: 0 auto;
+   width: 960px;
+   margin: 0 auto;
 }
 
-
 a {
-	color: #153E7E;
-	text-decoration: none;
+   color: #153E7E;
+   text-decoration: none;
+}
+
+nav {
+   background-color: black;
+   width: 100%;
+}
+
+nav ul {
+   background-color: black;
+   width: 100%;
+   margin-left: -40px;
+   list-style: none;
+}
+
+nav ul li {
+   background-color: black;
+   display: block;
+   float: left;
+   width: 20%;
 }
 
 nav a {
-	background-color: black;
-	color: white;
-	width: 180px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	padding: 12px 0;
-	float: left;
-
+   background-color: black;
+   color: white;
+   display: block;
+   font-size: 24px;
+   text-align: center;
+   padding: 12px 0;
 }
 
 nav a:hover {
-	background-color: #153E7E;
+   background-color: #153E7E;
 }
+
+#staff img {
+	width: 450px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+h5 {margin: 0 auto;
+
+}
+
+h6 { font-size: 17px;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+h7 {font-size: 17px;
+}
+
+address {
+	display: block;
+	font-size: 17px;
+}
+
+

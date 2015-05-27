@@ -16,7 +16,7 @@ body {
 
 nav {
    background-color: black;
-   width: 50%;
+   width: 80%;
 }
 
 nav ul {
@@ -50,15 +50,15 @@ h1 {color:#2E0854;
 	text-align: center;
 	font-family: 'Bad Script', cursive;
 	font-size: 25px ;
-	margin: 50px 0 0;
+	margin: 60px 0 0;
 	font-weight: 400;
-	padding: 30px;
+	padding: 0px;
 }
 
  h2 {font-size: 18px ;
-	margin: 50px 0 0;
+	margin: 40px 0 0;
 	font-weight: 400;
-	padding: -20px 0;
+	padding: 0;
 	text-align: center;
 
 }
@@ -79,17 +79,23 @@ div{
 	overflow: hidden;
 }
 
-ul{
+/*ul{
 	margin: 0;
-}
+
+}*/
 
 img{
 	width: 80%;
  }
 
+
  .resize {
  	width: 33.33%
  }
+
+.clearfix{
+	clear:both;
+}
 
 
 .thumbnail{
@@ -104,8 +110,6 @@ img{
 	color: #2E0854;
 }
 
-
-}
 
 #main {
 	width: 800px;

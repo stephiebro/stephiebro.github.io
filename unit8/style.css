@@ -16,13 +16,13 @@ body {
 
 nav {
    background-color: black;
-   width: 80%;
+   width: 70%;
 }
 
 nav ul {
    background-color: black;
    width: 100%;
-   margin-left: 30px;
+   margin-left: 50px;
    list-style: none;
 }
 
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav a {
-   background-color: #6B78B4;
+   background-color: #6B78B4; 
    color: #593E1A;
    display: block;
    font-size: 24px;
@@ -55,11 +55,11 @@ h1 {color:#2E0854;
 	padding: 0px;
 }
 
- h2 {font-size: 18px ;
-	margin: 40px 0 0;
+ p {font-size: 18px ;
+	margin: 40px 0;
 	font-weight: 400;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -84,9 +84,9 @@ div{
 
 }*/
 
-img{
+/* img{
 	width: 80%;
- }
+ } */
 
 
  .resize {
@@ -99,10 +99,13 @@ img{
 
 
 .thumbnail{
-	width: 100%;
-	float: left;
-	margin: 1%;
-
+	position: absolute;
+	top:1;
+	bottom:5;
+	left:1;
+	right:0;
+	display:block;
+	/* background-size: cover; */
 }
 
 

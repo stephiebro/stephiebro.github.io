@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bad+Script);
 @import url('http://fonts.googleapis.com/css?family=Hind');
 
+@media screen only and (min-width: 100em) {
 body {
 	color: #2E0854;
 	background-color: #FFF;
@@ -9,58 +10,57 @@ body {
 	font-family: 'Hind', sans-serif;
 	
 }
-	a {
+a {
    color: #153E7E;
    text-decoration: none;
 }
 
-nav {
+/* nav {
    background-color: black;
-   width: 70%;
+   width: 100px; */ 
 }
 
 nav ul {
    background-color: black;
-   width: 100%;
-   margin-left: 50px;
-   list-style: none;
+   width: 2em;
+   margin-left: 2em;
 }
 
 nav ul li {
-   background-color: black;
    display: block;
-   float: right;
-   width: 30%;
+   float: left;
+   width: 7em;
 }
 
 nav a {
    background-color: #6B78B4; 
    color: #593E1A;
    display: block;
-   font-size: 24px;
+   font-size: 1em;
    text-align: center;
-   padding: -20px 0;
+   padding: 3em 0;
 }
 
 nav a:hover {
    background-color: #FFCF79;
 }
 
+
 h1 {color:#2E0854;
 	text-align: center;
 	font-family: 'Bad Script', cursive;
-	font-size: 25px ;
-	margin: 60px 0 0;
+	font-size: 2em ;
+	margin: 3em 0 0;
 	font-weight: 400;
-	padding: 0px;
+	padding: 0em;
 }
 
- p {font-size: 18px ;
-	margin: 40px 0;
+ p {font-size: 1em ;
+	margin: 4em, 0;
 	font-weight: 400;
 	padding: 0;
 	text-align: left;
-
+	font-family: 'Hind', sans-serif;
 }
 
 
@@ -75,7 +75,7 @@ h1 {color:#2E0854;
 }
 
 div{
-	width: 100%;
+	width: 50em;
 	overflow: hidden;
 }
 
@@ -90,21 +90,19 @@ div{
 
 
  .resize {
- 	width: 33.33%
+ 	width: 20em;
+ 	padding-bottom:-1em;
+
  }
 
-.clearfix{
+.clearfix:after{
 	clear:both;
 }
 
 
 .thumbnail{
-	position: absolute;
-	top:1;
-	bottom:5;
-	left:1;
-	right:0;
-	display:block;
+	position: relative;
+	
 	/* background-size: cover; */
 }
 
@@ -114,17 +112,19 @@ div{
 }
 
 
-#main {
+/* #main {
 	width: 800px;
 	margin: 0 auto;
-}
+}*/
 
-#main 
+ #main 
 img 
 {
-max-width: 100%;
-max-height: 100%;
+max-width: 50em;
+max-height: 50em;
 margin: 0 auto;
 display:block;
+} 
+
 }
 

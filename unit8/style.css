@@ -15,30 +15,33 @@ a {
    text-decoration: none;
 }
 
-/* nav {
+nav {
    background-color: black;
-   width: 100px; */ 
+   width: 100px; 
 }
 
 nav ul {
-   background-color: black;
-   width: 2em;
-   margin-left: 2em;
+   text-align: center;
+   /* width: 100px; */
+   /* margin-left: 20px; */
 }
 
 nav ul li {
+ 	line-height: 50px;
+   height: 50px;
+   text-align: center;
+   width: 80px;
    display: block;
    float: left;
-   width: 7em;
 }
 
 nav a {
    background-color: #6B78B4; 
    color: #593E1A;
    display: block;
-   font-size: 1em;
+   font-size: 1.5em;
    text-align: center;
-   padding: 3em 0;
+   padding: 30px 0;
 }
 
 nav a:hover {
@@ -50,13 +53,13 @@ h1 {color:#2E0854;
 	text-align: center;
 	font-family: 'Bad Script', cursive;
 	font-size: 2em ;
-	margin: 3em 0 0;
+	margin: 0 auto;
 	font-weight: 400;
-	padding: 0em;
+	padding: 10px;
 }
 
  p {font-size: 1em ;
-	margin: 4em, 0;
+	margin: 30px, 0;
 	font-weight: 400;
 	padding: 0;
 	text-align: left;
@@ -75,7 +78,7 @@ h1 {color:#2E0854;
 }
 
 div{
-	width: 50em;
+	width: 500px;
 	overflow: hidden;
 }
 
@@ -90,12 +93,12 @@ div{
 
 
  .resize {
- 	width: 20em;
- 	padding-bottom:-1em;
+ 	width: 200px;
+ 	padding-bottom: 10px;
 
  }
 
-.clearfix:after{
+.clearfix {
 	clear:both;
 }
 
@@ -120,8 +123,8 @@ div{
  #main 
 img 
 {
-max-width: 50em;
-max-height: 50em;
+max-width: 500px;
+max-height: 500px;
 margin: 0 auto;
 display:block;
 } 

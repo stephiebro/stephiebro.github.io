@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Bad+Script);
 @import url('http://fonts.googleapis.com/css?family=Hind');
-
+* { margin:0;padding:0;box-sizing:border-box; }
 
 body {
 	color: #2E0854;
 	background-color: #FFF;
-	/*background-image: url("assets/limebbq.jpg");*/
-	background-size: cover;
 	font-family: 'Hind', sans-serif;
 	
 }
@@ -42,17 +40,19 @@ nav a:hover {
 }
 
 
-h1 {color:#2E0854;
+h1 {
+	color:#2E0854;
 	text-align: center;
 	font-family: 'Bad Script', cursive;
-	font-size: 1.5em ;
+	font-size: 1.5em;
 	margin: 0 auto;
 	font-weight: 400;
-	padding: 50px;
+	padding: 1em;
 }
 
- p {font-size: 1em ;
-	margin: 30px, 0;
+ p {
+ 	font-size: 1em;
+	margin: 2em 0;
 	font-weight: 400;
 	padding: 0px;
 	text-align: left;
@@ -61,30 +61,9 @@ h1 {color:#2E0854;
 
 
 }
-/* p {
-	max-width: 30em;
-	font-family: 'Hind', sans-serif;
-	margin: 20px 0 ;
-	padding: -20px;
-	text-align: center; */
-
+.hero {
+	width:100%;
 }
-
-div{
-	width: 500px;
-	overflow: hidden;
-}
-
-/*ul{
-	margin: 0;
-
-}*/
-
-/* img{
-	width: 80%;
- } */
-
-
  .resize {
  	/* width:100%; */
  	height: 150px;
@@ -97,27 +76,12 @@ div{
 	clear:both;
 }
 
-
-#thumbnail{
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
-}
-
-#thumbnail img {
-	width: 100%;
-	height: auto;
-	position: relative;
-	top: 50%;
-	transform:translateY(-50%);
-}
-
 #slogan {
 	color: #2E0854;
 }
 
 
-#main {
+main {
 	width: 60%;
 	margin: 0 auto;
 }

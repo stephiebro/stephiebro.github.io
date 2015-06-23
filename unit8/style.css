@@ -27,8 +27,8 @@ nav ul li {
 }
 
 nav a {
-   background-color: #6B78B4; 
-   color: #593E1A;
+ 
+   color: #2E0854;
    display: block;
    font-size: 1.5em;
    text-align: center;
@@ -48,6 +48,17 @@ h1 {
 	margin: 0 auto;
 	font-weight: 400;
 	padding: 1em;
+}
+
+h2 {color:#2E0854;
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0 auto;
+	font-weight: 400;
+	padding: 1em 0 0;
+}0 
+
+
 }
 
  p {
@@ -83,7 +94,17 @@ h1 {
 #splash {
 	max-width: 100%;
 	height: auto;
+	width: 100%;
 
+}
+
+#banner {
+	width: 100%;
+}
+
+#story {
+	width: 70%;
+	margin: 0 auto;
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {

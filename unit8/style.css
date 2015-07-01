@@ -73,7 +73,7 @@ h2 {color:#000000;
 
 h3 {color:#000000;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin: 0 auto;
 	font-weight: 400;
 	padding: 1em 0 0;
@@ -109,7 +109,7 @@ h3 {color:#000000;
 #story {
 	width: 70%;
 	margin: 0 auto;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 #menu{
@@ -118,6 +118,7 @@ h3 {color:#000000;
 	text-align: center;
 	background-color: #FFF;
 	padding: 20px 0;
+	font-size: .90em;
 
 }
 
@@ -128,6 +129,18 @@ h3 {color:#000000;
 	background-size: cover;
 
 }
+
+#contact{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #B8B8B8;
+	padding: 20px 0;
+	color:#FFFFFF;
+
+}
+
+
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
 	}

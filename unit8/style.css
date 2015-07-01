@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
 @import url(http://fonts.googleapis.com/css?family=Hind:700,400);
 * { margin:0;padding:0;box-sizing:border-box; }
 
@@ -33,7 +34,7 @@ nav a {
    display: block;
    font-size: 1em;
    text-align: center;
-   padding: 5px 0;
+   padding: 2px 0;
    font-weight: 700;
 }
 
@@ -43,13 +44,12 @@ nav a:hover {
 
 
 h1 {
-	color:#2E0854;
+	color:#000000;
 	text-align: center;
-	font-family: 'Bad Script', cursive;
-	font-size: 1.5em;
+	font-family: 'Sue Ellen Francisco';
+	font-size: 3em;
 	margin: 0 auto;
-	font-weight: 400;
-	padding: 1em;
+	padding: 0em;
 }
 
 h2 {color:#000000;
@@ -67,7 +67,6 @@ h2 {color:#000000;
  	font-size: 1em;
 	margin: 2em 0;
 	font-weight: 400;
-	padding: 0px;
 	text-align: left;
 	font-family: 'Hind', sans-serif;
 }
@@ -86,13 +85,7 @@ h3 {color:#000000;
 .hero {
 	width:100%;
 }
- .resize {
- 	/* width:100%; */
- 	height: 120px;
- 	display: block;
- 	margin: auto;
- 	
- }
+
 
 .clearfix:after { 
 	content: "."; 
@@ -116,6 +109,7 @@ h3 {color:#000000;
 #story {
 	width: 70%;
 	margin: 0 auto;
+	padding-bottom: 10px;
 }
 
 #menu{
@@ -130,7 +124,7 @@ h3 {color:#000000;
 #menubackground {
 	background-color:#000;
 	padding: 50px 0;
-	background:url() no-repeat center center fixed;
+	background:url("assets/dirtroad.jpg") no-repeat center center fixed;
 	background-size: cover;
 
 }

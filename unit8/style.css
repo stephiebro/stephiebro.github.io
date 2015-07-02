@@ -130,7 +130,7 @@ h3 {color:#000000;
 
 }
 
-#contact{
+#contactbox{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
@@ -139,6 +139,11 @@ h3 {color:#000000;
 	color:#FFFFFF;
 
 }
+
+#contact{
+	width:20%;
+}
+
 
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
